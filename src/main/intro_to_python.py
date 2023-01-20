@@ -22,7 +22,7 @@ def matrix_array():
     print(str(array).replace(' [', '').replace('[', '').replace(']', ''))
     print("\n")
      
-     #for matrix 2
+    #for matrix 2
     for i in range(0, 3):
         for j in range(0, 3):
             if i == j:
