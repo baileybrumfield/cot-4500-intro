@@ -39,4 +39,5 @@ def matrix_array():
     print(str(array).replace(' [', '').replace('[', '').replace(']', ''))
 
 #run function
-matrix_array()
+if __name__ == "__main__":
+    matrix_array()
